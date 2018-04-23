@@ -1,0 +1,28 @@
+<?php
+require("config.php");
+
+
+if(isset($_POST['submit'])){
+$question=$_POST['queform'];
+$sql = "INSERT INTO quizquestion(queform) VALUES('$question')";
+$result = mysql_query($qry);
+if($result){
+
+ echo'<script type="text/javascript">alert("pop up" )</script>';}
+
+}
+?>
+<html>
+<head>
+<title>
+    </title>
+    </head>
+    <body>
+    put your questions
+        <div class="form-group">
+            <label for="queform">question</label>
+    <input type="text" name="queform" id="queform"/>
+            <input type="submit" name="submit"/>
+        </div>
+    </body>
+</html>

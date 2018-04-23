@@ -1,0 +1,29 @@
+#container2 ul li{
+background-color: coral;
+    height: 20px;
+    width: 99px;
+    font-size: 10px;
+    color: white;
+    list-style: none;
+
+}
+#container3{
+    background-color: lightgrey;
+    max-width: 650px;
+    min-width: inherit;
+    text-align: center;
+    
+ 
+}
+body ul li {
+        list-style: none;
+
+}
+#buttons{
+    text-align: center
+}
+
+        .showHide{
+            display: none;
+        }
+    
